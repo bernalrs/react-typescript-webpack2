@@ -11,7 +11,7 @@ module.exports = {
         publicPath: ''
     },
     resolve:{
-        extensions: ['js', '.jsx', '.ts', '.tsx', '.css']
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.css']
     },
     context: resolve(__dirname, 'src'),
     devtool: 'inline-source-map',
@@ -31,4 +31,4 @@ module.exports = {
         ]
     },
     plugins: []
-}
+};
