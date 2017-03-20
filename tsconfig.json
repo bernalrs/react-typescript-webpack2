@@ -1,5 +1,8 @@
 {
     "compilerOptions":{
+        "types":[
+            "node"
+        ],
         "module": "commonjs",
         "noImplicitAny": true,
         "removeComments": true,
@@ -8,7 +11,7 @@
         "strictNullChecks": true,
         "version": true,
         "target": "ES6",
-        "jsx": "React"        
+        "jsx": "React"
     },
     "include": [
         "src/**/*"
@@ -17,5 +20,8 @@
         "node_modules",
         "**/*.spec.ts",
         "**/__tests__/*.tsx"
+    ],
+    "typeRoots": [
+        "node_modules/@types"
     ]
 }

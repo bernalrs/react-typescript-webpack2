@@ -28,6 +28,7 @@
     },
     "homepage": "https://github.com/bernalrs/react-typescript-webpack2#readme",
     "devDependencies": {
+        "@types/node": "^7.0.8",
         "@types/react": "^15.0.16",
         "@types/react-addons-test-utils": "^0.14.17",
         "@types/react-dom": "^0.14.23",
@@ -49,8 +50,12 @@
         "react-dom": "^15.4.2"
     },
     "jest": {
-        "moduleFileExtensions": ["ts","tsx","js"],
-        "moduleNameMapper":{
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
+        "moduleNameMapper": {
             "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
             "\\.(css|less)$": "identity-obj-proxy"
         },
@@ -60,6 +65,5 @@
         "testRegex": "/__tests__/.*\\.(ts|tsx|js)$",
         "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
         "cacheDirectory": "<rootDir>/node_modules/.cache/jest"
-
     }
 }
