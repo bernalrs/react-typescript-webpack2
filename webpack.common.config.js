@@ -1,5 +1,5 @@
-const {resolve} = require('path');
-const webpack =require('webpack');
+var {resolve} = require('path');
+var webpack =require('webpack');
 
 module.exports = {
     entry: [
